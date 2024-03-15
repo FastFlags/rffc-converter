@@ -19,7 +19,7 @@ def convert():
             formatted_reallyrich = reallyrich_str if '.' in reallyrich_str else f"{int(reallyrich)}"
             fvariable_label.config(text=f"{formatted_reallyrich} dollars is {rc:.5f} Retarded Coin")
     except ValueError:
-        messagebox.showerror("Error", "is")
+        messagebox.showerror("Error", "Please enter a valid number.")
 
 retardcr = 142069
 
