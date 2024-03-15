@@ -11,9 +11,9 @@ def convert():
     try:
         reallyrich = float(reallyrich_str)
         if reallyrich < 0:
-            messagebox.showerror("Error", "Please enter a valid number you dumb fuck.")
+            messagebox.showerror("Error", "Please enter a valid number.")
         elif reallyrich == 0:
-            messagebox.showinfo("Information", "nigga is u fukin retarded ofc its 0 u dumb bitch")
+            messagebox.showinfo("Information", "hell naw")
         elif reallyrich > 0:
             rc = sex(reallyrich, retardcr)
             formatted_reallyrich = reallyrich_str if '.' in reallyrich_str else f"{int(reallyrich)}"
