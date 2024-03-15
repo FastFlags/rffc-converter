@@ -12,17 +12,17 @@ def main():
             
             reallyrich = float(reallyrich_str)
             if reallyrich < 0:
-                print("Please enter a valid number you dumb fuck.")
+                print("Please enter a valid number.")
                 continue
             elif reallyrich == 0:
-                print("nigga is u fukin retarded ofc its 0 u dumb bitch")
+                print("hell naw")
                 continue
             elif reallyrich > 0:
                 rc = sex(reallyrich, retardcr)
                 formatted_reallyrich = reallyrich_str if '.' in reallyrich_str else f"{int(reallyrich)}"
                 print(f"{formatted_reallyrich} dollars is {rc:.5f} RC")
         except ValueError:
-            print("Invalid input. Please enter a valid number you dumb fuck.")
+            print("Invalid input. Please enter a valid number.")
 
 if __name__ == "__main__":
     main()
